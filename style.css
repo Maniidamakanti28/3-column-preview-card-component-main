@@ -1,91 +1,62 @@
-html{
-  layout:1440px;
-}
+/* 5  % 6 */
 body{
-  background-color: hsl(225, 100%, 94%);
-  background-image: url('images\pattern-background-desktop.svg');
-  background-repeat: none;
-  font-family: 'Kumbh Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Outfit', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 17px;
+
 }
-.card{
-  background-color: hsl(225, 100%, 98%);
-  height: 50px;
-  width: 400px;
-  border-radius: 20px;
-  margin: 100px auto 0px 450px;
+.container-fluid{
+  margin:100px 0px 0px 0px;
+
 }
-img{
-  width: 400px;
-  border-radius: 20px 20px 0px 0px;
-}
-.order{
-  text-align: center;
+.row{
+  width: 1100px;
 
 }
 h1{
-  color: hsl(223, 47%, 23%);
+  font-family: 'Big Shoulders Display', cursive;
+  margin-left: 70px;
+
+}
+.s{
+  color: hsl(0, 0%, 95%);
 }
 p{
-  margin: 0px 50px 0px 50px;
-  color: hsl(224, 23%, 55%);
+  font-family: 'Lexend Deca', sans-serif;
+  padding:20px 70px 0px 70px;
+  color: hsl(0, 0%, 95%);
 
 }
-.box{
-  background-color: hsl(225, 100%, 94%);
-  margin: 20px 0px 0px 60px;
-  height: 70px;
-  width: 270px;
-  border-radius: 10px;
+
+img{
+  height: 20px;
+  width: 30px;
+  margin:20px 0px 0px 70px;
 }
-.music{
-  height: 65px;
-  width: 65px;
-}
-.plan{
-  text-align: center;
-  color: hsl(223, 47%, 23%);
-  position: relative;
-  left: 13px;
-  bottom: 55px;
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  height: 300px;
+
 
 }
-.amount{
-  color: hsl(224, 23%, 55%);
+.SUVs{
+  background-color: hsl(184, 100%, 22%);
+  height: 300px;
+}
+.Luxry{
+  background-color: hsl(179, 100%, 13%);
+  height: 300px;
+
+}
+.bttn{
   position: relative;
   top: 20px;
-  right: 66px;
+  margin-left: 70px;
 }
-.change{
-  position: relative;
-  bottom: 55px;
-  left: 140px;
-}
-.change:hover{
-  text-decoration: none;
-}
-.buttn{
-
-}
-input{
-  color: hsl(225, 100%, 94%);
-  background-color: hsl(245, 75%, 52%);
-  margin: 20px 0px 0px 57px;
-  font-size: 15px;
-  height: 40px;
-  width: 270px;
-  border-radius: 10px;
-}
-input:hover{
-  background-color: hsl(245deg 75% 52% / 50%);
-}
-
-h3{
+.attribution {
+  font-size: 11px;
   text-align: center;
-  color: hsl(224, 23%, 55%);
 }
-h3:hover{
-  color: hsl(223, 47%, 23%);
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

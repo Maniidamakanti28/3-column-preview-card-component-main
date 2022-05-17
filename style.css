@@ -1,0 +1,91 @@
+html{
+  layout:1440px;
+}
+body{
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('images\pattern-background-desktop.svg');
+  background-repeat: none;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.card{
+  background-color: hsl(225, 100%, 98%);
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
+  margin: 100px auto 0px 450px;
+}
+img{
+  width: 400px;
+  border-radius: 20px 20px 0px 0px;
+}
+.order{
+  text-align: center;
+
+}
+h1{
+  color: hsl(223, 47%, 23%);
+}
+p{
+  margin: 0px 50px 0px 50px;
+  color: hsl(224, 23%, 55%);
+
+}
+.box{
+  background-color: hsl(225, 100%, 94%);
+  margin: 20px 0px 0px 60px;
+  height: 70px;
+  width: 270px;
+  border-radius: 10px;
+}
+.music{
+  height: 65px;
+  width: 65px;
+}
+.plan{
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  position: relative;
+  left: 13px;
+  bottom: 55px;
+
+}
+.amount{
+  color: hsl(224, 23%, 55%);
+  position: relative;
+  top: 20px;
+  right: 66px;
+}
+.change{
+  position: relative;
+  bottom: 55px;
+  left: 140px;
+}
+.change:hover{
+  text-decoration: none;
+}
+.buttn{
+
+}
+input{
+  color: hsl(225, 100%, 94%);
+  background-color: hsl(245, 75%, 52%);
+  margin: 20px 0px 0px 57px;
+  font-size: 15px;
+  height: 40px;
+  width: 270px;
+  border-radius: 10px;
+}
+input:hover{
+  background-color: hsl(245deg 75% 52% / 50%);
+}
+
+h3{
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+h3:hover{
+  color: hsl(223, 47%, 23%);
+}
